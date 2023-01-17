@@ -1,0 +1,32 @@
+{
+  "name": "@lumjs/defer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "exports":
+  {
+    ".": "./lib/index.js",
+    "./actions": "./lib/actions.js",
+    "./promise": "./lib/promise.js",
+    "./status": "./lib/status.js",
+    "./fake": "./lib/fake.js",
+    "./package.json": "./package.json"
+  },
+  "license": "MIT",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/supernovus/lum.defer.js.git"
+  },
+  "dependencies": {
+    "@lumjs/core": "^1.8.0"
+  },
+  "devDependencies":
+  {
+    "@lumjs/tests": "^1.8.0"
+  },
+  "scripts":
+  {
+    "test": "lumtest.js",
+    "build-docs": "jsdoc -c ./jsdoc.json"
+  }
+}
